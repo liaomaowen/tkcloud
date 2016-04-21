@@ -1,0 +1,122 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-color: #E2EEEC;
+}
+
+.head-black{
+	background-color: #2D2D2D;
+  border-color: #0b6fa2;
+  color: #eeeeee;
+  height: 60px;
+}	
+
+.head-center{
+	padding-top: 10px;
+}
+
+.am-g .am-g-shoujianren{
+	margin-left: 20px;
+}
+#wold-size-one{
+	font-size: 20px;
+	font-weight: 600;
+	/*font-weight:0~900 9个等级的加粗*/
+}
+
+#wold-size{
+	font-size: 20px;
+	font-weight: 500;
+	/*font-weight:0~900 9个等级的加粗*/
+}
+
+.am-g-fahuoxingxi{
+	background-color: #fbfbfb;
+}
+
+.am-g-fahuoxingxi .am-g-fahuoxingxi-one{
+	margin-top: 12px;
+}
+
+
+.am-g-tk{
+	margin-top: 10px;
+	background-color: #fbfbfb;
+}
+
+.am-g-buy .am-g-redLeft{
+	float: left;
+}
+.am-g-buy .red{
+	color: #D10C0C;
+}
+
+.am-g-buy .am-g-redRight{
+	color: #D10C0C;
+}
+
+.am-g-buy .am-g-buy-img{
+	padding-top: 15px;
+	padding-left: 20px;file
+}
+
+.am-g-buy .am-g-left{
+	float: left;
+}
+
+.am-g-buy .am-g-right{
+	float: right;
+}
+
+.am-g-say{
+	background-color: #fbfbfb;
+}
+
+.am-g-say .am-g-left{
+	float: left;
+}
+
+.am-g-say .am-g-right{
+	float: right;
+}
+
+.am-g-say .am-g-line-hr{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.am-g-say .am-g-number{
+	margin-top: 15px;
+}
+
+.am-g-say .am-g-input{
+	width: 100%;
+	height: 120px;
+}
+
+.am-g-allmemory{
+	background-color: #fbfbfb;
+}
+
+.am-g-allmemory .am-g-right{
+	float: right;
+}
+
+.am-g-allmemory .am-g-left{
+	float: left;
+}
+
+.am-g-people{
+	background-color: #fbfbfb;
+	margin-top: 10px;
+}
+
+.am-g-people .am-g-left{
+	float: left;
+}
+
+.am-g-people .am-g-right{
+	float: right;
+}

@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #E2EEEC;
+}
+.head-black{
+background-color: #2D2D2D;
+  border-color: #0b6fa2;
+  color: #eeeeee;
+  height: 60px;
+}
+
+.head-left{
+	float: left;
+	padding-left: 10px;
+}
+.am-g-img_show{
+	padding-bottom: 50px;
+	background-color: #fbfbfb;
+	margin-top: -6%;
+}
+
+#am-g-choose{
+	background-color: #fbfbfb;
+
+}
+#am-g-choose .am-u-sm-4{
+	position: relative;
+	text-align: center;
+}
+
+#am-g-choose .am-img_button{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	left:50%;
+	margin-left: -41px;
+	margin-top: -41px;
+}
+
+.am-u-hot{
+	text-align: center;
+	right: 32%;
+	margin-top: 20px;
+}
+
+#am-g-neirong{
+	margin-top: 20px;
+	background-color:#fbfbfb; 
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+#am-g-ziliao{
+	background-color: #fbfbfb;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.am-u-study{
+	text-align: center;
+	right: 32%;
+	margin-top: 10px;
+}
+
+
+#am-u-p-world{
+	font-size: 1px;
+}
+
+/*#am-g-study .am-u-sm-3{
+	position: relative;
+	text-align: center;
+}*/
+
+
+
+/*#am-g-study .am-u-world{
+	position:absolute;
+	width: 72px;
+	height: 100px;
+	left: 50%;
+	margin-left: -41px;
+	margin-top: -50px;
+	
+}*/
+
+
+#am-study .am-u-sm-study{
+	text-align: center;
+	position: relative;
+}

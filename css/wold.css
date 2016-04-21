@@ -1,0 +1,46 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #E2EEEC;
+}
+
+.head-black{
+	background-color: #2D2D2D;
+  border-color: #0b6fa2;
+  color: #eeeeee;
+  height: 40px;
+}
+
+.head-left{
+	float: left;
+	padding-left: 10px;
+}
+.head-right{
+	float: right;
+	padding-right: 10px;
+}
+
+.am-g-wenku{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.am-g-wold{
+	background-color: #fbfbfb;
+}
+
+.am-g-img{
+	background-color: #fbfbfb;
+}
+
+
+.am-g-wold .am-u-sm-4{
+	text-align: center;
+}
+
+.am-g-wold p{
+	font-size: 12px;
+}

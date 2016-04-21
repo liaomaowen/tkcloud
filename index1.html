@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>探客云印</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="{{assets}}i/favicon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta name="msapplication-TileColor" content="#0e90d2">
+    <link rel="stylesheet" href="css/amazeui.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="head head-black">
+        <a href="#doc-oc-demo1" data-am-offcanvas>
+            <a href="#" class="user-icon"></a>
+        </a>
+    </div>
+    <!-- 侧边栏内容 -->
+    <div id="doc-oc-demo1" class="am-offcanvas">
+        <div class="am-offcanvas-bar">
+            <div class="am-offcanvas-content">
+            </div>
+        </div>
+    </div>
+    <div class="am-g am-g-collapse">
+        <div class="am-u-sm-12">
+            <img src="img/background.png" class="am-img-responsive" alt="" />
+        </div>
+    </div>
+    <div class="am-g am-g-block">
+        <div class="am-u-sm-4">
+            <div id="picker"><a><span class="button button-print"></span>我要打印</a></div>
+        </div>
+        <div class="am-u-sm-4">
+            <a><span class="button button-bean"></span>我要芸豆</a>
+        </div>
+        <div class="am-u-sm-4">
+            <a><span class="button button-selected"></span>已选文件</a>
+        </div>
+    </div>
+    <div class="am-g am-g-block">
+        <div><i class="hot-icon"></i>热门推荐</div>
+        <div class="hot-where">
+            <img src="img/use.png" class="am-img-responsive am-img_button" />
+        </div>
+    </div>
+    <div class="am-g am-g-block">
+        <div><i class="study-icon"></i>学习资料</div>
+        <div class="am-u-sm-12 file">
+            <div class="am-u-sm-3">
+                <a><i class="file-icon"></i><span class="name-file">四级英语真题</span></a>
+            </div>
+            <div class="am-u-sm-3">
+                <a><i class="file-icon"></i><span class="name-file">四级英语真题</span></a>
+            </div>
+            <div class="am-u-sm-3">
+                <a><i class="file-icon"></i><span class="name-file">四级英语真题</span></a>
+            </div>
+            <div class="am-u-sm-3">
+                <a><i class="file-icon"></i><span class="name-file">四级英语真题</span></a>
+            </div>
+        </div>
+        <div>
+            <a><i class="more-file"></i></a>
+        </div>
+    </div>
+    <div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="uploading-modal">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">上传中...</div>
+            <div class="am-modal-bd">
+                <span id="filename"></span>
+                <span class="am-icon-spinner am-icon-spin"></span>
+            </div>
+        </div>
+    </div>
+        <div class="am-modal am-modal-no-btn" tabindex="-1" id="order-info-modal" >
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">Tell Me
+                <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+            </div>
+            <div class="am-modal-bd">
+                <div class="am-g">
+                    <div class="am-u-md-8 am-u-sm-centered">
+                        <form id="order-form" class="am-form" style="text-align: left">
+                            <fieldset class="am-form-set">
+                                <select name="printshop" id="select-print-shop">
+                                    <option value="1">打印店1</option>
+                                    <option value="2">打印店2</option>
+                                    <option value="3">打印店3</option>
+                                </select><br/>
+                                <label>取件时间</label><br/>
+                                <input type="text" class="am-form-field " name="fetch_time" placeholder="日历组件" data-am-datepicker readonly required />
+                                <label class="am-checkbox">
+                                    <input type="checkbox" name="isExpress" value="" data-am-ucheck> 是否送货
+                                </label>
+                            </fieldset>
+                            <div class="am-btn am-btn-primary am-btn-block" id="submit-form">提交</div>
+                            <div class="am-btn am-btn-primary am-btn-block" id="submit-form">继续添加</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/webuploader/0.1.1/webuploader.min.js"></script>
+    <script src="js/amazeui.ie8polyfill.min.js" /></script>
+    <script type="text/javascript" src="js/amazeui.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

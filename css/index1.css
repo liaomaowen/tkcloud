@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #E2EEEC;
+}
+
+.head-left{
+	float: left;
+	padding-left: 10px;
+}
+
+.am-g-choose{
+	padding-top: 10px;
+	background-color: #fbfbfb;
+}
+
+
+
+.am-g-hot .hot-where{
+	padding: 10px 10px 15px 10px;
+}
+sd
+.am-g-file{
+	background-color: #fbfbfb;
+	margin-top: 10px;
+}
+
+.am-g-file .file-file{
+	padding: 10px 10px 0px 10px;
+}
+
+.am-g-file .file-file .file-wold{
+	font-size: 5px;
+}
+
+.am-g-file .file-more{
+	text-align: center;
+}
